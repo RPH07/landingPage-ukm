@@ -1,0 +1,78 @@
+.navbar {
+  margin: 40px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.menu {
+  margin: 20px;
+  padding: 20px;
+}
+
+.hero,
+.produk,
+.contact {
+  background-color: #f9cfc2;
+  color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+#footer {
+  margin: 40px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #222;
+  color: #f5f5f5;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #f5f5f5;
+  transition: 0.3s ease;
+}
+.dark-mode .jumbotron {
+  background-color: #222;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.dark-mode .navbar {
+  background-color: #222 !important;
+  color: #fff !important;
+  transition: 0.3s ease;
+}
+.dark-mode .navbar .navbar-brand,
+.dark-mode .navbar .navbar-nav .nav-link {
+  color: #fff !important;
+}
+.dark-mode .card {
+  background-color: #333;
+  color: #fff;
+}
+.dark-mode .menu {
+  background-color: #222;
+  border-radius: 10px;
+}
+.dark-mode .faq .accordion-button {
+  background-color: #333;
+  color: #fff;
+}
+.dark-mode .faq .accordion-button.collapsed {
+  background-color: #222;
+}
+.dark-mode .faq .accordion-body {
+  background-color: #222;
+  color: #fff;
+}
+.dark-mode p {
+  color: #fff;
+}
+.dark-mode footer {
+  background-color: #222;
+  color: #f5f5f5;
+}
+
+#toggle-theme {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
